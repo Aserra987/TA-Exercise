@@ -1,0 +1,87 @@
+{
+    "countries": [
+        "UAE",
+        "Abu Dhabi",
+        "Dubai",
+        "China",
+        "Qatar",
+        "Kuwait",
+        "Taiwan",
+        "India",
+        "Japan",
+        "Korea",
+        "Hong Kong",
+        "Saudi Arabia",
+        "Kazakhstan",
+        "Malaysia",
+        "Mexico",
+        "USA"
+    ],
+    
+    "regions": [
+        "USA",
+        "United Kingdom",
+        "Middle East",
+        "Central Asia",
+        "East Asia",
+        "South Asia",
+        "Southeast Asia",
+        "Europe",
+        "Africa",
+        "South America",
+        "Mexico and the Caribbean",
+        "Australia and New Zealand"
+    ],
+
+    "featuredPrograms": [
+        "Abu Dhabi Public Schools",
+        "American Creativity Academy",
+        "DaDa",
+        "Emirates National Schools",
+        "Hong Kong Education Bureau",
+        "Maple Leaf Schools",
+        "Online Job Fairs",
+        "The Institute of Applied Technology",
+        "UAE Government Schools",
+        "Qkids",
+        "ADVETI - Abu Dhabi High Schools",
+        "Bright Scholar Education Group",
+        "Disney English",
+        "Hawaii Public Schools",
+        "Gogokid",
+        "NIS – Nazarbayev Intellectual Schools",
+        "The Explore Program",
+        "Uzbekistan Presidential Schools",
+        "VIPKID",
+        "Skooli"
+    ],
+
+    "topCities": [
+        "New York City",
+        "Chicago",
+        "Los Angeles",
+        "Atlanta",
+        "Las Vegas",
+        "San Francisco",
+        "Boston",
+        "Los Angeles",
+        "Philadelphia",
+        "Washington",
+        "DC",
+        "Seattle"
+    ],
+
+    "topStates": [
+        "Maine",
+        "Florida",
+        "California",
+        "Hawaii",
+        "New York",
+        "Georgia",
+        "Washington",
+        "Pennsylvania",
+        "Texas"
+    ]
+}
+
+        
