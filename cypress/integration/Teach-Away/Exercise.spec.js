@@ -24,7 +24,7 @@ describe('Exercise Test Suite Mega Menu', function () {
         homePage.getMegaMenu_TitleHireTeachers().should('be.visible').and('contain', 'Hire Teachers');
     })
 
-    it('Should "Jobs" option have a Dropdown whith other Options', function () {
+    it('Should "Jobs" option have a Dropdown with other Options', function () {
         homePage.getMegaMenu_TitleJobs().click();
         homePage.getMegaMenu_TitleJobBoard().should('be.visible').and('contain', 'Job Board');
         homePage.getMegaMenu_TitleDestinations().should('be.visible').and('contain', 'Destinations');
@@ -42,7 +42,7 @@ describe('Exercise Test Suite Mega Menu', function () {
 
     })
 
-    it('Should "Destinations" option show a Regions list ', function () {
+    it('Should "Destinations" option show a Regions list', function () {
         homePage.getMegaMenu_blockRegions().find('h2').should('contain', 'Regions');
         cy.wrap(data.regions).each(function (region_name) {
             homePage.getMegaMenu_blockRegions().find('li').should('contain', region_name);
@@ -58,7 +58,7 @@ describe('Exercise Test Suite Mega Menu', function () {
     })
 
 
-    it('Should "Teach in the United States"  option show a block with the Top Cities', function () {
+    it('Should "Teach in the United States" option show a block with Top Cities', function () {
         homePage.getMegaMenu_blockTopCities().find('h2').should('contain', 'Top Cities');
         cy.wrap(data.topCities).each(function (city_name) {
             homePage.getMegaMenu_blockTopCities().find('li').should('contain', city_name);
@@ -66,7 +66,7 @@ describe('Exercise Test Suite Mega Menu', function () {
 
     })
 
-    it('Should "Teach in the United States"  option show a block with the Top States', function () {
+    it('Should "Teach in the United States"  option show a block with Top States', function () {
         homePage.get_MegaMenublockTopStates().find('h2').should('contain', 'Top States');
         cy.wrap(data.topStates).each(function (state_name) {
             homePage.get_MegaMenublockTopStates().find('li').should('contain', state_name);
@@ -74,14 +74,14 @@ describe('Exercise Test Suite Mega Menu', function () {
 
     })
 
-    it('Should "TEFL" option have a Dropdown whith other Options', function () {
+    it('Should "TEFL" option have a Dropdown with other Options', function () {
         homePage.getMegaMenu_TitleTefl().click();
         homePage.getMegaMenu_TitleTEFLCourses().should('be.visible').and('contain', 'TEFL Courses');
         homePage.getMegaMenu_TitleCertificationGuide().should('be.visible').and('contain', 'TEFL Certification Guide');
 
     })
 
-    it('Should "Teacher Certification" option have a Dropdown whith other Options', function () {
+    it('Should "Teacher Certification" option have a Dropdown with other Options', function () {
         homePage.getMegaMenu_TitleTeacherCerification().click();
         //Another way to check text
         homePage.getMegaMenu_TitleTeacherCertificationGuide().then(function($el){
